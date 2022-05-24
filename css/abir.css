@@ -1,0 +1,99 @@
+/* =====partner section start here===== */
+.partner__section{
+    margin: 200px 0;
+}
+
+.partners__logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partners__logo.align-items-center:last-child {
+    margin-bottom: 0;
+}
+
+.partners__logo.align-items-center {
+    margin-bottom: 100px;
+}
+/* =====partner section end here===== */
+
+
+/* =====footer section start here=====*/
+.footer__inner .footer__dimen {
+    text-align: center;
+}
+
+.footer__dimen .Dimen__logo {
+    margin-bottom: 70px;
+}
+
+.footer__dimen .dimen__title h1 {
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 76px;
+    background: linear-gradient(180deg, #FFDA76 0%, #FC9825 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+.footer__dimen .dimen__title h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    background: linear-gradient(180deg, #3EA3DC 0%, #27348B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .footer__triton {
+        text-align: right;
+    }
+    
+    .footer__triton .triton__title h4 {
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .footer__triton .triton__menu{
+        margin: 56px 0 48px;
+    }
+
+    .footer__triton .triton__menu ul {
+        padding: 0;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    .footer__triton .triton__menu ul li {
+        list-style: none;
+        margin-left: 50px;
+    }
+    
+    .footer__triton .triton__menu ul li a {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #0D293E;
+    }
+
+    .footer__triton .triton__contact p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #737373;margin-bottom: 18px;
+    }
+
+    .triton__social img {
+        margin-left: 40px;
+    }
+    
+    .triton__social {
+        margin-top: 48px;
+    }
+    
+
+/* =====footer section end here=====*/

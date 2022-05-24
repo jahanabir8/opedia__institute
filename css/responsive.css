@@ -1,0 +1,58 @@
+/* =======responsive start here====== */
+/* @media screen and (min-width: 1400px) {
+
+  }
+
+@media screen and (max-width: 1399px) {
+
+} */
+
+@media screen and (min-width: 1200px) {
+  .container{
+      max-width: 1450px;
+  }
+} 
+
+@media screen and (max-width: 1199px) {
+
+
+}
+
+@media screen and (max-width: 991PX) {
+
+
+}
+
+@media screen and (max-width: 767PX) {
+
+
+
+
+}
+
+@media screen and (max-width: 575PX) {
+ 
+
+
+}
+
+@media screen and (max-width: 424PX) {
+
+}
+
+@media screen and (max-width: 423px) {
+
+  }
+
+@media screen and (max-width: 374PX) {
+
+}
+
+@media screen and (max-width: 320PX) {
+
+
+}
+
+
+
+/* =======responsive end here====== */
