@@ -20,6 +20,10 @@
 
 
 /* =====footer section start here=====*/
+.footer__top{
+    padding: 150px 0;
+}
+
 .footer__inner .footer__dimen {
     text-align: center;
 }
@@ -94,6 +98,67 @@
     .triton__social {
         margin-top: 48px;
     }
+
+    
+    /* ---footer foot--- */
+    .footer__foot{
+        text-align: center;
+    }
+
+    .footer__foot p{
+        font-weight: bold;
+    }
+
+    .footer__foot p span{
+        background: linear-gradient(180deg, #3EA3DC 0%, #27348B 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800;
+    }
+    /* ---footer foot--- */
     
 
 /* =====footer section end here=====*/
+
+/* =====seat book section start here===== */
+.seat__title {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.seat__title h4 {
+    font-weight: 800;
+    font-size: 40px;
+    color: rgba(13, 41, 62, 0.9);
+}
+
+.seat__title form {
+    margin: 119px 0 64px 0;
+}
+
+.seat__book__inner form input,
+ .seat__book__inner form select,
+  .seat__book__inner form button {
+    width: 350px;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: inset -1px -1px 6px rgba(255, 104, 43, 0.05), inset 1px 1px 3px rgba(166, 171, 189, 0.5);
+    border: none;
+    outline: none;
+}
+
+.seat__book__inner form select{
+    width: 298px;
+}
+
+.seat__book__inner form button {
+    width: 284px;
+    left: calc(50% - 298px/2 + 562px);
+    top: calc(50% - 85px/2 + 1826.5px);
+    background: #D60665;
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+/* =====seat book section end here===== */
