@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>footer</title>
 
-
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <link rel="stylesheet" href="css/abir.css">
     <link rel="stylesheet" href="css/bootstrap5.min.css">
@@ -82,6 +85,137 @@
     <!-- seat__book__section end here-->
 
 
+
+    <!-- =====================facility page start here============= -->
+    <!-- facility section star here -->
+    <div class="facility__section">
+        <div class="container">
+            <div class="facility__inner">
+                <div class="facility__title">
+                    <h1>OUR FACILITIES</h1>
+                </div>
+                <div class="row align-items-center box-section">
+                    <div class="col-md-6">
+                        <div class="facility__box text-center">
+                            <img src="images/facility/img1.png" alt="">
+                            <h4>24/7 Support</h4>
+                            <p>24/7 Online Support- We always listen to our students.
+                                 Any time they are in a problem, our team is always online
+                                  for providing support to them. Even at night,
+                                   we are online for your projects ongoing. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="facility__box text-center">
+                            <img src="images/facility/img2.png" alt="">
+                            <h4>Life Time Support</h4>
+                            <p>Our students get supports for life.
+                                 For any live project get our experts'
+                                  guideline and maintain it in international standard.   
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="facility__box text-center">
+                            <img src="images/facility/img3.png" alt="">
+                            <h4>Lab Support</h4>
+                            <p>We offer lab practise facilities for weak students where they can
+                                 practice the task and be able to hold the attention by solving
+                                  what is not understood by them.  
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="facility__box text-center">
+                            <img src="images/facility/img4.png" alt="">
+                            <h4>Class Video</h4>
+                            <p>Get the recorded lectures and class practical as video.
+                                 It will create a good storage of materials for future.
+                                  And you can practice at home with the help of these materials.   
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="facility__slider">
+                    <div class="slider__title">
+                        <h4>What Our Students Say</h4>
+                    </div>
+                    <div class="slider__r">
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="slider__box">
+                                    <div class="slide__title">
+                                            <img src="images/facility/student.png" alt="">
+                                        <div class="title">
+                                            <p>Leo</p>
+                                            <span>Lead Designer</span>
+                                        </div>
+                                    </div>
+                                    <div class="slide__content">
+                                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+                                             purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor.”
+                                        </p>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="slider__box">
+                                    <div class="slide__title">
+                                            <img src="images/facility/student.png" alt="">
+                                        <div class="title">
+                                            <p>Leo</p>
+                                            <span>Lead Designer</span>
+                                        </div>
+                                    </div>
+                                    <div class="slide__content">
+                                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+                                             purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor.”
+                                        </p>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="slider__box">
+                                    <div class="slide__title">
+                                            <img src="images/facility/student.png" alt="">
+                                        <div class="title">
+                                            <p>Leo</p>
+                                            <span>Lead Designer</span>
+                                        </div>
+                                    </div>
+                                    <div class="slide__content">
+                                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+                                             purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor.”
+                                        </p>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+
+
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- facility section star here -->
+
+
+    <!-- =====================facility page end here============= -->
+
+
     <!-- footer section start here -->
     <div class="footer__section">
         <div class="container">
@@ -138,6 +272,25 @@
     <!-- footer section end here -->
 
 
+
     <script src="js/bootstrap5.min.js"> </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 3,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 </body>
 </html>
