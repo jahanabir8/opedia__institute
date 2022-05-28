@@ -43,6 +43,359 @@
 /* =====partner section end here===== */
 
 
+/* ====================================
+    service up page start here
+========================================*/
+.course__title {
+    padding: 70px;
+    background: linear-gradient(271.98deg, rgba(179, 227, 255, 0) 33.52%, #F4F5F9 100%);
+    position: relative;
+}
+
+.course__title img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.course__title h1 {
+    font-weight: 800;
+    font-size: 56px;
+    color: rgba(13, 41, 62, 0.9);
+}
+    
+.course__title p {
+    font-weight: 100;
+    font-size: 16px;
+    color: rgba(13, 41, 62, 0.6);
+    margin: 0;
+}
+
+/* overview start */
+
+.overview__section {
+    margin: 60px 0;
+}
+
+.overview__section .overview {
+    padding-right: 80px;
+}
+
+.overview .overview__title h4, .overview .overview__module h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+     background: linear-gradient(180deg, #3EA3DC 0%, #27348B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    
+.overview .overview__title p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: rgba(13, 41, 62, 0.6);
+    margin: 50px 0 64px;
+}
+
+.overview__module .module__list {
+    margin-top: 50px;
+}
+
+
+
+.overview__module .module__list ul li {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(13, 41, 62, 0.6);
+    margin-bottom: 25px;
+}
+
+.overview__module .module__list ul li:last-child {
+    margin-bottom: 0;
+}
+
+
+.overview__course__details {
+    padding: 40px 60px 56px;
+    border: 2px solid rgba(255, 218, 118, 1);
+    border-radius: 12px;
+    /* display: none; */
+}
+
+.overview__course__details .title h4 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    background: linear-gradient(180deg, #FFDA76 0%, #FC9825 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 32px;
+}
+    
+.overview__course__details .details__list ul li {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(13, 41, 62, 0.6);
+    margin-bottom: 14px;
+}
+    
+.overview__course__details .details__list ul li:last-child {
+    margin-bottom: 0;
+}
+
+.overview__course__details .enroll__quate {
+    text-align: center;
+}
+
+.overview__course__details .enroll__quate h4 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #D60665;margin: 30px 0 32px;
+}
+
+.overview__course__details .enroll__quate button {
+    border-radius: 8px;font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    width: 230px;
+    margin-bottom: 9px;
+    outline: none;
+}
+
+.overview__course__details .enroll__quate button.first__child {
+    background: linear-gradient(180deg, #D680FF -25.64%, #AB04C7 100%);
+}
+
+.overview__course__details .enroll__quate button.last__child {
+    background-color: #fff;
+    color: rgba(13, 41, 62, 0.6)!important;
+    border: 2px solid rgba(13, 41, 62, 0.6)!important;
+}
+
+.career__opportunity .title h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+     background: linear-gradient(180deg, #3EA3DC 0%, #27348B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    
+.career__opportunity .title p {font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(13, 41, 62, 0.6);margin: 50px 0 32px;text-align: justify;
+}
+
+.opportunity__list ul {
+    padding: 0;margin: 0;
+}
+
+.opportunity__list ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.opportunity__list ul li img {
+    padding-right: 17px;
+}
+
+.opportunity__list ul li p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(13, 41, 62, 0.9);
+}
+
+.requirement__post {
+    margin-top: 60px;
+}
+
+.requiremnts h4, .software h4 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    background: linear-gradient(180deg, #3EA3DC 0%, #27348B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    
+.requiremnts ul, .software .difl ul  {
+    padding-left: 1rem;
+    margin: 0;
+}
+    
+.requiremnts ul li, .software .difl ul li {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(13, 41, 62, 0.6);
+}
+    
+.requiremnts ul li:first-child {
+    margin: 35px 0 25px;
+}
+
+.software h4 {
+    margin-bottom: 35px;
+}
+
+.software .difl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.software .difl ul li{
+    margin-bottom: 20px;
+}
+
+.software .difl ul li:last-child{
+    margin-bottom: 0;
+}
+
+.requiremnts, .software {
+    padding: 47px 44px;
+    background-color: #F6F8FB;
+    border-radius: 30px;
+}
+
+.software {
+    padding: 28px 44px;
+}
+
+/* overview start */
+
+@media screen and (max-width: 1699px) {
+    .course__title h1 {
+        font-size: 39px;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .course__title img {
+        display: none;
+    }
+
+    .overview__section .overview {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .overview__course__details {
+        padding: 40px 25px 56px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    /* .course__title {
+        padding: 40px;
+    } */
+}
+@media screen and (max-width: 991px) {
+    .course__title {
+        padding: 40px;
+    }
+
+    .course__title h1 {
+        font-size: 31px;
+    }
+
+    .course__title h1 {
+        font-size: 31px;
+    }
+
+    .overview .overview__title h4,
+     .overview .overview__module h4,
+      .career__opportunity .title h4 {
+        text-align: center;
+    }
+
+    .overview .overview__title p {
+        margin: 30px 0 46px;
+    }
+
+    .overview__course__details {
+        padding: 40px 60px 56px;
+    }
+
+    .overview__module {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .overview .overview__title h4,
+     .overview .overview__module h4,
+     .career__opportunity .title h4 {
+        font-size: 33px;
+    }
+
+    .overview__course__details {
+        padding: 30px;
+    }
+
+    .requiremnts {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .overview__course__details .enroll__quate button {
+        font-size: 16px;
+    }
+
+    .overview__module .module__list,
+     .requirement__post {
+        margin-top: 35px;
+    }
+
+    .career__opportunity .title p {
+        margin: 21px 0 40px;
+    }
+
+    .requiremnts, .software {
+        padding: 34px 26px;
+    }
+
+    .requiremnts h4, .software h4 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .course__title h1 {
+        font-size: 19px;
+    }
+
+    .overview__course__details .title h4 {
+        font-size: 28px;
+        margin-bottom: 22px;
+    }
+
+    .requiremnts ul li, .software .difl ul li {
+        font-size: 17px;
+        line-height: unset;
+    }
+}
+
+/* ====================================
+    service up page end here
+========================================*/
+
+
+
 /* =====footer section start here=====*/
 .footer__top{
     padding: 150px 0;
@@ -91,6 +444,7 @@
     .footer__triton .triton__menu ul {
         padding: 0;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
     }
